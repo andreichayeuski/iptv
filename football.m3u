@@ -1,71 +1,66 @@
 #EXTM3U
 
 ########################
-# 🇧🇾 БЕЛАРУСЬ
+# 🇧🇾 БЕЛАРУСЬ (СТАБИЛЬНО)
 ########################
 
-#EXTINF:-1 group-title="Belarus",Беларусь 5
+#EXTINF:-1 group-title="Belarus",Belarus 5
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5.smil/playlist.m3u8
 
-#EXTINF:-1 group-title="Belarus",Беларусь 5 Интернет
+#EXTINF:-1 group-title="Belarus",Belarus 5 Internet
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5int.smil/playlist.m3u8
 
 
 ########################
-# 🇵🇱 ПОЛЬША
+# 🇩🇪 ГЕРМАНИЯ (ЛЧ / БУНДЕСЛИГА)
 ########################
 
-#EXTINF:-1 group-title="Poland",TVP Sport
-https://tvpstream.tvp.pl/?channel_id=39821455
+#EXTINF:-1 group-title="Germany",Sport1 DE
+https://sport1live-lh.akamaihd.net/i/sport1_1@143373/master.m3u8
 
-#EXTINF:-1 group-title="Poland",Polsat Sport (alt)
-http://178.219.128.68:64888/PolsatSport/index.m3u8
-
-#EXTINF:-1 group-title="Poland",Canal+ Sport (alt)
-http://178.219.128.68:64888/CanalSport/index.m3u8
+#EXTINF:-1 group-title="Germany",ServusTV DE (часто ЛЧ)
+https://servustvhd-i.akamaihd.net/hls/live/2038170/servustvhd/playlist.m3u8
 
 
 ########################
-# 🇬🇧 UK (ФУТБОЛ / ОБСУЖДЕНИЕ)
+# 🌍 beIN (часто работает)
 ########################
 
-#EXTINF:-1 group-title="UK",Sky Sports Main Event
-http://185.243.7.187:8080/sky1/index.m3u8
-
-#EXTINF:-1 group-title="UK",Sky Sports Premier League
-http://185.243.7.187:8080/skypl/index.m3u8
-
-#EXTINF:-1 group-title="UK",Sky Sports Football
-http://185.243.7.187:8080/skyfootball/index.m3u8
-
-#EXTINF:-1 group-title="UK",Sky Sports News
-http://185.243.7.187:8080/skynews/index.m3u8
-
-#EXTINF:-1 group-title="UK",BBC Sport (News / Highlights)
-https://vs-hls-pushb-ww.live.cf.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/pc_hd_abr_v2.m3u8
-
-#EXTINF:-1 group-title="UK",TalkSport (audio football discussion)
-https://radio.talksport.com/stream
-
-#EXTINF:-1 group-title="UK",FreeSports UK
-https://streaming.freesports.tv/hls/stream.m3u8
-
-
-########################
-# 🌍 МЕЖДУНАРОДНЫЕ
-########################
-
-#EXTINF:-1 group-title="Sports",beIN Sports Xtra
+#EXTINF:-1 group-title="beIN",beIN Sports Xtra
 https://bein-esp-xumo.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 group-title="Sports",beIN Sports English
+#EXTINF:-1 group-title="beIN",beIN Sports Xtra EN
 https://bein-sports-xumo.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 group-title="Sports",Fox Sports 1
-https://foxsports1-xumo.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 group-title="Sports",Fox Sports 2
-https://foxsports2-xumo.amagi.tv/playlist.m3u8
+########################
+# 🇬🇧 SKY SPORTS (редко, но сейчас встречаются)
+########################
+
+#EXTINF:-1 group-title="UK",Sky Sports Premier League
+https://live20.bozztv.com/trn03/gin-skysportspl/index.m3u8
+
+#EXTINF:-1 group-title="UK",Sky Sports Main Event
+http://aziptv.mine.nu:8000/live/bento/bento/127.m3u8
+
+#EXTINF:-1 group-title="UK",Sky Sports Arena
+http://aziptv.mine.nu:8000/live/bento/bento/126.m3u8
+
+
+########################
+# 🇺🇸 FOX / МЕЖДУНАРОДНЫЕ
+########################
+
+#EXTINF:-1 group-title="USA",Fox Sports 1
+http://aziptv.mine.nu:8000/live/bento/bento/262.m3u8
+
+#EXTINF:-1 group-title="USA",Fox Sports 2
+http://aziptv.mine.nu:8000/live/bento/bento/263.m3u8
+
+
+########################
+# 🌍 ДОПОЛНИТЕЛЬНЫЕ ФУТБОЛЬНЫЕ
+########################
 
 #EXTINF:-1 group-title="Sports",KTV Sport
 https://kwtspta.cdn.mangomolo.com/sp/smil:sp.stream.smil/playlist.m3u8
