@@ -14,6 +14,19 @@ https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5int.smil/playlist.m3u8
 # 🇵🇱 ПОЛЬША
 ########################
 
+#EXTINF:-1 group-title="Alt Football",Sport1 DE
+https://sport1live-lh.akamaihd.net/i/sport1_1@143373/master.m3u8
+
+#EXTINF:-1 group-title="Alt Football",ServusTV DE
+https://servustvhd-i.akamaihd.net/hls/live/2038170/servustvhd/playlist.m3u8
+
+#EXTINF:-1 group-title="Alt Football",beIN Sports Xtra
+https://bein-esp-xumo.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 group-title="Alt Football",beIN Sports Xtra EN
+https://bein-sports-xumo.amagi.tv/playlist.m3u8
+
+
 #EXTINF:-1 group-title="Poland",TVP Sport
 https://tvpstream.tvp.pl/?channel_id=39821455
 
